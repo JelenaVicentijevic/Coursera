@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 100%;
+	font-family: "Comic Sans MS", sans-serif;
+	align-content: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-size: 125%;
+	border: 2px solid black;
+	
+	text-align: center;
+	width: 130px;
+	float:right;
+	position: relative;
+	border-top: 0px;
+	border-right: 0px;
+}
+
+#one{
+background-color: pink;
+}
+
+#two{
+background-color: darkred;
+color: white;
+}
+
+#three{
+background-color: lightyellow;
+}
+
+p{
+padding: 40px 10px 15px 10px;
+}
+
+div{
+width: 33.33%;
+padding: 15px;
+float:left;
+}
+
+section{
+position: relative;
+background-color: grey;
+border:2px solid black;
+}
+
+@media (max-width: 767px){
+div{
+	width: 100%;
+}
+h1{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+}
+
+@media (min-width: : 992px){
+	div{
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	div{
+		width:50%;
+	}
+	#third{
+		width: 100%;
+	}
+	h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+}
