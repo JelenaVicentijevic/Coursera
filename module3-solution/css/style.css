@@ -1,0 +1,71 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:16px;
+	color: black;
+}
+
+#header-nav{
+	border-radius: 0;
+	border:1px solid black;
+}
+
+.bg-company{
+	background-color: #999999 !important;
+}
+
+.navbar-brand h1{
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 30px;
+}
+
+#navbarToggler {
+	padding: 0px;
+	text-align: center;
+	background-color: white;
+	margin-left: -16px;
+	margin-right:-16px;
+	margin-bottom:-7.5px;
+}
+
+.navbar-nav li{
+	border: 1px solid black;
+	font-size: 110%;
+}
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+.bg-iconnav {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0323d', endColorstr='#e6366c', GradientType=0);
+	padding: 10px;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler-icon:active{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(256, 256, 256, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .bg-iconnav{
+	border:2px solid black;
+}
+
+/*MAIN PAGE*/
+h2{
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+section{
+	height: 1000px;
+	background-color: #999999;
+	padding: 5px 15px 5px 15px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 150%;
+}
